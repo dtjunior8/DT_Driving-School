@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Mersica';
+  src: url('fonts/merisca.woff2') format('woff2'),
+       url('fonts/merisca.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#contact{
+    text-align: center;
+}
+
+#about{
+    text-align: center;
+}
+
+
+
