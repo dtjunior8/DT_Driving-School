@@ -13,12 +13,109 @@ body {
   background-color: #f4f4f4;
 }
 
-#contact{
+header {
+    background-image: url('images/Roadway.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    }
+
+header h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin: 0;
+  color: white;
+}
+
+header p {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  margin-top: 0.5em;
+  color: white;
+}
+
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+nav a:hover {
+      background-color: #555;
+    }
+section {
+      padding: 20px;
+      max-width: 80%;
+      margin: auto;
+      background-color: white;
+    }
+footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+#Contact{
     text-align: center;
 }
 
-#about{
+#About {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Container for image + text side by side */
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap; /* ensures stacking on small screens */
+  gap: 2rem;
+  max-width: 90%;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+}
+
+/* Image styling */
+.about-image {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* optional */
+  flex-shrink: 0;
+}
+
+/* Text block next to image */
+.about-text {
+  text-align: left;
+  max-width: 50%;
+  line-height: 2;
+  margin-top: 0;
+}
+
+
+
+#Price{
     text-align: center;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 
