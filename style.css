@@ -112,10 +112,26 @@ footer {
     text-align: center;
 }
 
+#Cancellation{
+    text-align: center;
+}
+
 html, body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+}
+
+#Payment{
+    text-align: center;
+}
+
+#Test{
+    text-align: center;
+}
+
+#Refusal{
+    text-align: center;
 }
 
 
