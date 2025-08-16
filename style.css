@@ -86,8 +86,7 @@ footer {
 
 /* Image styling */
 .about-image {
-  max-width: 300px;
-  width: 100%;
+  max-width: 60%;
   height: auto;
   border-radius: 8px; /* optional */
   flex-shrink: 0;
@@ -95,8 +94,8 @@ footer {
 
 /* Text block next to image */
 .about-text {
-  text-align: left;
-  max-width: 50%;
+  text-align: center;
+  max-width: 75%;
   line-height: 2;
   margin-top: 0;
 }
